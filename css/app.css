@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:ital,wght@0,500;1,400;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#pertama .container {
+  margin: auto;
+  width: 80%;
+}
+
+#pertama .container header {
+  justify-content: space-between;
+  display: flex;
+}
+
+#pertama .container header .kiri ul {
+  display: flex;
+}
+
+#pertama .container header .kiri ul li {
+  padding: 20px;
+}
+
+#pertama .container header .tengah img {
+  width: 90px;
+}
+
+#pertama .container header .kanan ul {
+  display: flex;
+}
+
+#pertama .container header .kanan ul li {
+  padding: 20px;
+}
+
+#pertama .container header .tengahkanan img {
+  widows: 25px;
+}
+
+#pertama .container header .bacround {
+  width: 20px;
+}
+
+#dua {
+  background: url(./Asset/homepage.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.isikanan {
+  margin-left: 900px;
+  width: 400px;
+  height: 80px;
+  padding-top: 190px;
+  color: white;
+  font-size: 30px;
+}
+
+.isikanan form button {
+  height: 30px;
+  border-radius: 100px 100px 100px 100px;
+  padding-left: 10px;
+  width: 70%;
+}
+
+.isikanan form button {
+  height: 30px;
+  border-radius: 100px 100px 100px 100px;
+  width: 45%;
+  color: white;
+  background-color: red;
+}
+
+#tiga .bawah .isibawah {
+  margin: 100px 0 0 0;
+}
+
+#tiga .bawah .isibawah h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#tiga .bawah .isibawah p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.conten .isi-conten {
+  display: flex;
+  margin: 100px 0 0 0;
+  padding: 0 150px;
+}
+
+.conten button {
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}
+
+#empat {
+  background: url(./Asset/maps-1.svg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#empat .bagmap .isibagmap {
+  margin-left: 800px;
+  width: 400px;
+  height: 80px;
+  padding-top: 190px;
+  font-size: 30px;
+}
+
+#lima {
+  margin-top: 80px;
+}
+
+#lima .container .l-konten {
+  display: flex;
+}
+
+#lima .container .l-konten .row {
+  width: 33.3%;
+}
+
+footer {
+  margin-top: 70px;
+  color: white;
+}
+
+footer .logo {
+  background-color: black;
+}
+
+footer .logo .lebar {
+  display: flex;
+  margin: auto;
+  padding: 40px auto;
+  width: 80%;
+}
+
+footer .konten {
+  background-color: blueviolet;
+  color: white;
+}
+
+footer .konten .lebar {
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+footer .konten .satu {
+  width: 35%;
+  margin-left: 20px;
+}
+
+footer .konten .satu .icon {
+  display: flex;
+}
+
+footer .konten .satu .icon img {
+  margin-top: 75px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+footer .konten .satu .tombol-bawah {
+  padding: 10px;
+  width: 150px;
+  border-radius: 100px;
+  border: none;
+  background-color: red;
+  color: wheat;
+}
+
+footer .footer-bawah {
+  background-color: blue;
+  padding: 10px;
+  padding-left: 20px;
+}
